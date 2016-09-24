@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04F9EE591D96DE2D00E78B96 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F9EE581D96DE2D00E78B96 /* main.c */; };
+		04F9EE621D96DF0800E78B96 /* maximumSubsequenceSum.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F9EE601D96DF0800E78B96 /* maximumSubsequenceSum.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		04F9EE551D96DE2D00E78B96 /* Data Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F9EE581D96DE2D00E78B96 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04F9EE601D96DF0800E78B96 /* maximumSubsequenceSum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maximumSubsequenceSum.c; sourceTree = "<group>"; };
+		04F9EE611D96DF0800E78B96 /* maximumSubsequenceSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maximumSubsequenceSum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				04F9EE581D96DE2D00E78B96 /* main.c */,
+				04F9EE5F1D96DF0800E78B96 /* Maximum Subsequence Sum */,
 			);
 			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		04F9EE5F1D96DF0800E78B96 /* Maximum Subsequence Sum */ = {
+			isa = PBXGroup;
+			children = (
+				04F9EE611D96DF0800E78B96 /* maximumSubsequenceSum.h */,
+				04F9EE601D96DF0800E78B96 /* maximumSubsequenceSum.c */,
+			);
+			path = "Maximum Subsequence Sum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F9EE621D96DF0800E78B96 /* maximumSubsequenceSum.c in Sources */,
 				04F9EE591D96DE2D00E78B96 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +260,7 @@
 				04F9EE5E1D96DE2D00E78B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
